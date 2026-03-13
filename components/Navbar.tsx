@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence, Variants } from "framer-motion";
-import { Menu, X, Zap, Phone, Instagram, Linkedin, MessageCircle } from "lucide-react";
+import { Menu, X, Zap, Phone, Instagram, MessageCircle } from "lucide-react";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -91,6 +91,7 @@ export default function Navbar() {
           <button
             className="md:hidden p-2 text-primary"
             onClick={() => setIsOpen(true)}
+            aria-label="Abrir menu de navegação"
           >
             <Menu size={32} />
           </button>
@@ -115,7 +116,11 @@ export default function Navbar() {
                   SAULO<span className="text-secondary">LEÃO</span>
                 </span>
               </div>
-              <button onClick={() => setIsOpen(false)} className="text-white p-2">
+              <button 
+                onClick={() => setIsOpen(false)} 
+                className="text-white p-2"
+                aria-label="Fechar menu de navegação"
+              >
                 <X size={32} />
               </button>
             </div>
