@@ -29,9 +29,6 @@ export const metadata: Metadata = {
     'eficiência energética',
     'segurança elétrica',
   ],
-  icons: {
-    icon: '/favicon.ico',
-  },
   openGraph: {
     title: 'Saulo Leão | Projetos Elétricos Seguros e Certificados',
     description:
