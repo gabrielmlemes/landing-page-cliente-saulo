@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, Variants } from "framer-motion";
 import { Menu, X, Zap, Phone, Instagram, Linkedin, MessageCircle } from "lucide-react";
 
 export default function Navbar() {
@@ -32,7 +32,7 @@ export default function Navbar() {
     { name: "Depoimentos", href: "#testimonials" },
   ];
 
-  const menuVariants = {
+  const menuVariants: Variants = {
     closed: { opacity: 0, x: "100%" },
     open: { 
       opacity: 1, 

@@ -6,19 +6,19 @@ import { Star, Quote } from "lucide-react";
 export default function Testimonials() {
   const testimonials = [
     {
-      name: "Carlos Alberto",
-      city: "Brasília, DF",
-      text: "O projeto elétrico da minha fábrica foi entregue com extrema agilidade e precisão técnica. Aprovamos tudo de primeira na vistoria. Recomendo fortemente.",
+      name: "Paulo Roberto",
+      city: "Rancho do Paulo Roberto",
+      text: "O trabalho de iluminação rústica e decorativa no meu jardim superou todas as expectativas. O Saulo conseguiu unir perfeitamente a estética que eu desejava com uma instalação técnica impecável e segura. Transformou o ambiente!",
     },
     {
-      name: "Mariana Silva",
-      city: "Brasília, DF",
-      text: "Contratei para o laudo técnico do meu condomínio. Profissionalismo impecável e conhecimento profundo das normas. Nos trouxe muita segurança.",
+      name: "Ubirajara",
+      city: "Villa Lord Boy",
+      text: "Contratamos o Saulo para toda a implementação física das nossas estações elétricas e alimentação para o QDC. A precisão técnica e a organização da execução são de um nível raramente visto no mercado. Uma estrutura robusta e extremamente confiável.",
     },
     {
-      name: "Ricardo Mendes",
-      city: "Brasília, DF",
-      text: "Fez a regularização da parte elétrica do meu comércio. Tudo agora está dentro das normas e as quedas de energia pararam. Excelente serviço.",
+      name: "Eric Dias",
+      city: "Livraria Saber Ler",
+      text: "A reforma elétrica completa, incluindo o novo projeto de iluminação e a automação, trouxe vida nova para a livraria. O Saulo é um engenheiro que realmente entende de modernização e eficiência. O resultado foi um espaço moderno, econômico e inteligente.",
     },
   ];
 
